@@ -26,7 +26,7 @@ jobs:
       run: yarn --ignore-scripts --frozen-lockfile
     - name: Build and Push
       run: |
-        REPO="https://youKnowOwO:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        REPO="https://Waxaranai:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         git clone $REPO out -b build
         yarn build
         rm -rf out/dist
