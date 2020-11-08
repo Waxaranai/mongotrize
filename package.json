@@ -1,8 +1,9 @@
 {
   "name": "@youKnowOwO/mongotrize",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "mongo is cool",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/youKnowOwO/mongotrize",
   "author": "youKnowOwO",
   "license": "MIT",
@@ -16,16 +17,16 @@
     "test": "yarn lint:check && yarn build && yarn build:rm"
   },
   "devDependencies": {
-    "@types/mongodb": "^3.5.26",
-    "@types/node": "^14.6.3",
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^4.0.1",
+    "@types/mongodb": "^3.5.32",
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
     "@youKnowOwO/eslint-config": "github:youKnowOwO/eslint-config#build",
-    "eslint": "^7.8.1",
+    "eslint": "^7.13.0",
     "rimraf": "^3.0.2",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.5"
   },
   "dependencies": {
-    "mongodb": "^3.6.1"
+    "mongodb": "^3.6.2"
   }
 }
